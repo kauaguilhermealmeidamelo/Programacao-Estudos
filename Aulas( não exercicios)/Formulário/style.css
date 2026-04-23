@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /*Garante que o padding e a borda sejam incluídos no tamanho total do elemento*/
 }
 
 /*Estilizando corpo da página*/
@@ -35,6 +36,7 @@ label{
 }   
 input{
     width: 95%; /*Faz o input ocupar toda a largura do formulário*/
+    width: 100%; /*Faz o input ocupar toda a largura do formulário*/
     padding: 10px; /*Adiciona espaçamento interno ao input*/
     margin-bottom: 15px; /*Adiciona espaçamento abaixo do input*/
     border-radius: 10px; /*Adiciona bordas arredondadas ao input*/
@@ -46,6 +48,7 @@ input{
     background-color: #cfcbcb; /*Define a cor de fundo do botão de envio*/
     padding: 10px; /*Adiciona espaçamento interno ao botão de envio*/
     width: 99%; /*Faz o botão ocupar toda a largura do formulário*/
+    width: 100%; /*Faz o botão ocupar toda a largura do formulário*/
     color: #000000; /*Define a cor do texto do botão de envio*/
     border: none; /*Remove a borda do botão de envio*/
     cursor: pointer; /*Adiciona um cursor de ponteiro ao passar o mouse sobre o botão de envio*/
