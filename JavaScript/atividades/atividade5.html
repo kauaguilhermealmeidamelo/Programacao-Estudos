@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(61, 60, 60);
+            
+        }
+        div{
+            display: flex;
+            background-color: brown;
+            justify-content: center;
+        }
+        label{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        #contrato{
+            background-color: antiquewhite;
+            padding: 10px 200px ;
+            
+        }
+
+        button{
+            margin-left: 50px;
+            background-color: rgb(96, 96, 96);
+            color: aliceblue;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover{
+            background-color: black;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+            <label for="">Contrato 1:</label>
+            <label for="" id="contrato">Senac DF</label>
+
+            
+            <button onclick="excluir ()">Excluir</button>
+            <script>
+                function excluir() {
+                window.confirm('Você deseja excluir este contrato');}
+
+            </script>
+    </div>
+    <div>
+        <label for="">Contrato 2:</label>
+            <label for="" id="contrato">Senac DF</label>
+
+            
+            <button onclick="excluir ()">Excluir</button>
+            <script>
+                function excluir() {
+                window.confirm('Você deseja excluir este contrato');}
+
+            </script>
+    </div>
+
+
+</body>
+</html>

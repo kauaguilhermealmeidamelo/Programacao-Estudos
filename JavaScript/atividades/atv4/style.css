@@ -54,3 +54,8 @@ button{
     cursor: pointer; /*Adiciona um cursor de ponteiro ao passar o mouse sobre o botão de envio*/
     font-weight: bold; /*Deixa o texto do botão de envio em negrito*/  
 }
+
+button:hover{
+    background-color: #5b5b5b;
+    color: #ffff;
+}
